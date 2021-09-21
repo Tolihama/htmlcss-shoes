@@ -46,6 +46,7 @@ nav li a:hover {
 
 /* MAIN CONTENT */
 section {
+    position: relative;
     height: 100vh;
 }
 
@@ -65,22 +66,14 @@ main section:nth-of-type(3) {
 }
 
 .box {
-    position: relative;
-    width: 50vw;
-    height: 100%;
-    top: 65%;
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
 }
 
-.box img {
-    max-width: 50vw;
-}
-
 .box h2 {
-    max-width: 50vw;
-    padding: 0 5vw;
-    font-size: 5vh;
+    font-size: 6vh;
     text-transform: uppercase;
 }
