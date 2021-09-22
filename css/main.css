@@ -68,8 +68,7 @@ main section:nth-of-type(3) {
 
 .box {
     position: absolute;
-    max-width: 50vw;
-    max-height: 100%;
+    width: 40%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -77,7 +76,8 @@ main section:nth-of-type(3) {
 }
 
 .box img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 50vh;
 }
 
 .box h2 {
